@@ -1,0 +1,123 @@
+/* Second start */
+.second {
+  width: 70%;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  border: 1px solid #ddd;
+}
+
+.b-icon-ext {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second .tabshead .ttab {
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  color: #313131;
+}
+
+.tablesec {
+  overflow-y: scroll;
+  float: left;
+  height: calc(100% - 46px);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.items-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.din-table {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("../img/table-bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 9px;
+}
+.din-table:hover {
+  cursor: pointer;
+}
+
+.din-table img {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.din-table span {
+  margin: 5px;
+  font-size: 0.8em;
+  color: #707070;
+}
+
+/* Third Section */
+/* .third {
+  width: 30%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  border-left: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.thirdsec-notify {
+  padding-top: 5px;
+  height: auto;
+}
+
+.third-sec {
+  width: 100%;
+  float: left;
+  height: calc(100% - 85px);
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+} */
+
+/* Important Staff Start */
+.tabs {
+  display: none;
+}
+.tabs.in {
+  display: block;
+}
+
+@media (max-width: 1375px) {
+  /* .orderbox {
+    height: auto;
+    float: left;
+  }
+  .user {
+    margin: auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .userid {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+  .price {
+    display: inline-block;
+  }
+  .time {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .worklogo i {
+    font-size: 30px;
+  } */
+}

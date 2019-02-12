@@ -1,0 +1,305 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+.sidebar {
+  width: 80px;
+  position: fixed;
+  height: 100%;
+  background-image: url(../image/sidebar-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  overflow: auto;
+}
+.sidebar::before {
+  content: "";
+  position: fixed;
+  width: inherit;
+  height: 100%;
+  float: left;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.77);
+}
+.icon-box {
+  width: 100%;
+  height: auto;
+  padding: 35px 0;
+  position: relative;
+}
+.icon-box i,
+.icon-box > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-box i::before {
+  font-size: 35px;
+  margin: 0;
+  color: #fff;
+}
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
+  margin: 9px auto;
+  position: relative;
+}
+.img-box {
+  width: 60px;
+  height: 42px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 5px;
+}
+.img-box img {
+  width: 100%;
+  float: left;
+}
+
+/*----------------main=================*/
+
+.main {
+  width: 100%;
+  float: left;
+  padding-left: 80px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.first {
+  width: 30%;
+  float: left;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.deliverytab,
+.restoranttab,
+.notificationtab {
+  cursor: pointer;
+}
+
+.head-icon {
+  width: 100%;
+  float: left;
+  height: 80px;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 99;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.b-icon {
+  width: 100%;
+  float: left;
+  height: 46px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d3d3d3;
+}
+.b-iconbox {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.b-iconbox i {
+  position: relative;
+  color: #a4a4a4;
+}
+.b-iconbox i::before {
+  font-size: 30px;
+}
+.b-iconbox span {
+  position: absolute;
+  top: -15px;
+  right: -19px;
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 1px;
+  box-sizing: border-box;
+  padding-right: 4px;
+}
+.s-icon {
+  width: 100%;
+  float: left;
+}
+.s-iconbox {
+  width: 25%;
+  float: left;
+  padding: 7px 0;
+  text-align: center;
+  border-bottom: 2px solid #bbb;
+  cursor: pointer;
+}
+.s-iconbox i {
+  color: #d3d3d3;
+  font-weight: 700;
+}
+.s-iconbox i::before {
+  font-size: 16px;
+}
+.active {
+  border-bottom: 3px solid #749f01;
+}
+.active i {
+  color: #749f01 !important;
+}
+
+.all-orders {
+  width: 100%;
+  float: left;
+  height: calc(100% - 80px);
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.grass-bg {
+  position: relative;
+}
+.grass-bg::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../image/grass.jpg");
+  opacity: 0.1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.ordersec {
+  width: 100%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+.orderbox {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  border: 1px solid #749f01;
+  box-shadow: 0 3px 15px rgba(116, 159, 1, 0.432),
+    0 3px 15px rgba(116, 159, 1, 0.13);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.shadow-danger {
+  border: 1px solid #eb0404;
+  box-shadow: 0 3px 15px rgba(159, 1, 1, 0.432),
+    0 3px 15px rgba(159, 1, 9, 0.13);
+}
+
+.shadow-warning {
+  border: 1px solid #ebc804;
+  box-shadow: 0 3px 15px rgba(159, 156, 1, 0.432),
+    0 3px 15px rgba(159, 156, 1, 0.13);
+}
+
+.user {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: green;
+  line-height: 80px;
+  float: left;
+  overflow: hidden;
+}
+.user img {
+  width: 100%;
+  float: left;
+}
+.userid {
+  width: 50%;
+  float: left;
+  padding-left: 12px;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 0;
+}
+.userid p {
+  margin: 0;
+  font-weight: 550;
+  color: #000;
+}
+.order-time {
+  font-weight: normal !important;
+  margin-top: 15px !important;
+  font-size: 0.88em;
+}
+.worklogo {
+  float: left;
+}
+.worklogo i {
+  margin-left: -10px;
+}
+.userprice {
+  float: right;
+}
+.price {
+  margin: 0;
+  font-weight: 700;
+}
+.time {
+  color: #749f01;
+  margin-bottom: 0;
+}
+
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+*::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+*::-webkit-scrollbar-track:hover {
+  background-color: #f4f4f4;
+}
+
+/* scrollbar itself */
+*::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 5px solid #fff;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+  border: 4px solid #f4f4f4;
+}
+
+/* set button(top and bottom of the scrollbar) */
+*::-webkit-scrollbar-button {
+  display: none;
+}

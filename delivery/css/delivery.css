@@ -1,0 +1,372 @@
+.second {
+  width: 15%;
+  float: left;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  border-right: 1px solid #ddd;
+}
+.second-box {
+  width: 100%;
+  height: 115px;
+  background: green;
+  border-radius: 10px;
+  position: relative;
+  background-image: url("../img/secondbox.png");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.second-text {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.third {
+  width: 30%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+}
+.third-sec-container {
+  width: 100%;
+  height: calc(100% - 46px);
+  float: left;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.third-sec {
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.third-sec2 {
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.third-sec3 {
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.third-box {
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-bottom: 20px;
+}
+.third-subbox {
+  height: 75px;
+  width: calc(50% - 22px);
+  float: left;
+  margin: 0 10px;
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(116, 159, 1, 0.16),
+    0 3px 6px rgba(116, 159, 1, 0.23);
+  border: 1px solid #749f01;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.third-subbox span {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  background: #749f01;
+  border-radius: 5px;
+  top: 10px;
+  left: -10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 3px;
+  font-weight: 550;
+  color: #fff;
+}
+.thirdname {
+  margin: 0;
+  padding-left: 43px;
+}
+.thirdprice {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.fourth {
+  width: 25%;
+  float: left;
+  height: 100%;
+  position: relative;
+}
+.fourthsec {
+  width: 100%;
+  float: left;
+  height: calc(100% - 265px);
+  overflow-y: scroll;
+}
+.fourth-box {
+  width: 100%;
+  float: left;
+  height: auto;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.fourth-head {
+  border-bottom: 2px solid #d3d3d3;
+  width: 100%;
+  float: left;
+  height: auto;
+  padding: 17px 30px 10px 30px;
+  box-sizing: border-box;
+}
+.fourth-head-left {
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+}
+.fourth-head-right {
+  float: right;
+  display: inline-block;
+  font-size: 14px;
+}
+.label {
+  width: 30px;
+  background: #749f01;
+  display: inline-block;
+  border-radius: 25px;
+  float: left;
+  text-align: center;
+  padding: 3px;
+  color: #fff;
+  font-size: 12px;
+}
+.name {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 2px;
+  display: inline-block;
+}
+.price-label {
+  background: #749f01;
+  display: inline-block;
+  border-radius: 25px;
+  float: right;
+  text-align: center;
+  padding: 3px 5px;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.euro {
+  display: inline-block;
+  margin-top: 2px;
+  color: #a4a4a4;
+}
+.fourth-con {
+  width: 100%;
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  color: #a4a4a4;
+}
+.fourth-first {
+  width: 100%;
+  float: left;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d3d3d3;
+  text-align: right;
+  font-size: 14px;
+}
+.food-extra {
+  display: inline-block;
+  float: left;
+}
+.food-price {
+  display: inline-block;
+}
+.deleat {
+  display: inline-block;
+  float: right;
+}
+.fourth-secound {
+  width: 100%;
+  float: left;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d3d3d3;
+  text-align: right;
+  font-size: 14px;
+}
+.fourth-thired {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.food-deleat {
+  width: 30px;
+  background: #eb402e;
+  display: inline-block;
+  border-radius: 25px;
+  float: left;
+  text-align: center;
+  padding: 3px;
+  color: #fff;
+  font-size: 12px;
+}
+.food-deleat i::before {
+  margin: 0;
+  font-size: 14px;
+}
+.add {
+  width: 30px;
+  background: #a4a4a4;
+  display: inline-block;
+  border-radius: 25px;
+  float: right;
+  text-align: center;
+  padding: 3px;
+  font-weight: 700;
+  color: #262626;
+  font-size: 12px;
+}
+.add i::before {
+  margin: 0;
+  font-size: 14px;
+}
+.complate-order {
+  position: absolute;
+  background: red;
+  width: 100%;
+  float: left;
+  bottom: 0;
+}
+.updown {
+  width: 100%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: 700;
+  color: #a4a4a4;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  border-bottom: none;
+}
+.up {
+  width: 50%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.up i {
+}
+.down {
+  width: 50%;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.down i {
+}
+.totalsec {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #fff;
+}
+.totalsecpart {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #fff;
+}
+.total-left {
+  display: inline-block;
+  float: left;
+}
+.total-right {
+  display: inline-block;
+  float: right;
+}
+.total-center {
+}
+.complateorder {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-weight: 700;
+}
+.tabs {
+  display: none;
+}
+.tabs.in {
+  display: block;
+}
+
+@media (max-width: 1375px) {
+  /* .orderbox {
+    height: auto;
+    float: left;
+  }
+  .user {
+    margin: auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .userid {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+  .price {
+    display: inline-block;
+  }
+  .time {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .worklogo i {
+    font-size: 30px;
+  }
+  .third-box {
+    margin-bottom: 0;
+  }
+  .third-subbox {
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+  }
+  .third {
+    width: 25%;
+  }
+  .fourth {
+    width: 30%;
+  }
+  .fourthsec {
+    height: 700px;
+    overflow-y: auto;
+  } */
+}
