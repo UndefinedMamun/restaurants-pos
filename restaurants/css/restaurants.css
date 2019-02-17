@@ -88,10 +88,12 @@
 } */
 
 /* Important Staff Start */
-.tabs {
+.tabs,
+.inner-tabs {
   display: none;
 }
-.tabs.in {
+.tabs.in,
+.inner-tabs.in {
   display: block;
 }
 

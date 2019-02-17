@@ -1,3 +1,5 @@
+/* second Start */
+
 .second {
   width: 15%;
   float: left;
@@ -320,10 +322,12 @@
   text-align: center;
   font-weight: 700;
 }
-.tabs {
+.tabs,
+.inner-tabs {
   display: none;
 }
-.tabs.in {
+.tabs.in,
+.inner-tabs.in {
   display: block;
 }
 

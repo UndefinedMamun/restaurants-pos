@@ -68,6 +68,21 @@ body {
   float: left;
 }
 
+.grass-bg {
+  position: relative;
+}
+.grass-bg::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../image/grass.jpg");
+  opacity: 0.1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
 /*----------------main=================*/
 
 .main {
@@ -82,24 +97,10 @@ body {
   float: left;
   height: 100%;
   overflow-y: hidden;
-}
-
-.deliverytab,
-.restoranttab,
-.notificationtab {
-  cursor: pointer;
-}
-
-.head-icon {
-  width: 100%;
-  float: left;
-  height: 80px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #ddd;
   box-sizing: border-box;
-  position: relative;
-  z-index: 99;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .b-icon {
   width: 100%;
   float: left;
@@ -109,7 +110,7 @@ body {
   border-bottom: 1px solid #d3d3d3;
 }
 .b-iconbox {
-  width: 25%;
+  width: 33.33%;
   float: left;
   box-sizing: border-box;
   text-align: center;
@@ -139,6 +140,17 @@ body {
   box-sizing: border-box;
   padding-right: 4px;
 }
+
+.orders-filtered {
+  height: calc(100% - 46px);
+  width: 100%;
+  float: left;
+}
+.inner-tabscon,
+.inner-tabs {
+  height: 100%;
+}
+
 .s-icon {
   width: 100%;
   float: left;
@@ -158,37 +170,24 @@ body {
 .s-iconbox i::before {
   font-size: 16px;
 }
-.active {
+.tabscon .active {
   border-bottom: 3px solid #749f01;
 }
-.active i {
+.tabscon .active i {
   color: #749f01 !important;
 }
 
 .all-orders {
   width: 100%;
   float: left;
-  height: calc(100% - 80px);
-  border-right: 1px solid #ddd;
+  height: calc(100% - 36px);
+  /* border-right: 1px solid #ddd; */
   box-sizing: border-box;
+  /* padding: 10px; */
 }
 
-.grass-bg {
-  position: relative;
-}
-.grass-bg::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: url("../image/grass.jpg");
-  opacity: 0.1;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
-.ordersec {
+/* order filter by */
+.ofb {
   width: 100%;
   float: left;
   padding: 20px;
@@ -208,6 +207,11 @@ body {
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 20px;
+  transition: transform 0.4s ease-out;
+}
+
+.orderbox:hover {
+  /* transform: translateY(-5px); */
 }
 
 .shadow-danger {
