@@ -1,3 +1,20 @@
+/* specific css in restaurents for order section */
+.order-table-icons {
+  width: 120px;
+  float: left;
+  background-image: url(../../pos-icons/png/019-table.png);
+  height: 100px;
+  background-size: cover;
+  margin: 20px;
+  position: relative;
+}
+.order-table-icons img {
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 15px);
+}
+
 /* Second start */
 .second {
   width: 70%;
