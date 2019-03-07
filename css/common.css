@@ -219,11 +219,17 @@ body {
   box-shadow: 0 3px 15px rgba(159, 1, 1, 0.432),
     0 3px 15px rgba(159, 1, 9, 0.13);
 }
+.shadow-danger .time {
+  color: #eb0404;
+}
 
 .shadow-warning {
   border: 1px solid #ebc804;
   box-shadow: 0 3px 15px rgba(159, 156, 1, 0.432),
     0 3px 15px rgba(159, 156, 1, 0.13);
+}
+.shadow-warning .time {
+  color: #d26e1a;
 }
 
 .user {
@@ -263,6 +269,9 @@ body {
 .worklogo i {
   margin-left: -10px;
 }
+.worklogo i.fa {
+  margin-left: 10px;
+}
 .userprice {
   float: right;
 }
@@ -274,6 +283,47 @@ body {
   color: #749f01;
   margin-bottom: 0;
 }
+
+/* Custom OrderBox Start (ignore the className "orderid" "delivery" it's a misunderstanding)*/
+.orderbox.delivery .orderid {
+  background-color: #ddd;
+  /* display: flex; */
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.orderbox.delivery .orderid p {
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+}
+
+.orderbox.delivery {
+  position: relative;
+  /* overflow: hidden; */
+  height: 90px;
+}
+
+
+.orderbox.delivery .order-time {
+  margin-top: 10px !important;
+}
+
+.orderbox.delivery .time {
+  margin-top: 10px;
+}
+
+.orderbox.delivery .user {
+  width: 50px;
+  height: 50px;
+  line-height: 70px;
+}
+/* Delivery OrderBox End*/
 
 /* Customize website's scrollbar like Mac OS
 Not supports in Firefox and IE */
