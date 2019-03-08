@@ -1,3 +1,77 @@
+/* custom dinners order item */
+
+.ofb {
+  padding: 20px 10px;
+}
+
+.dinners-order {
+  width: 47%;
+  float: left;
+  height: 185px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  background-color: #7ca60b;
+  justify-content: flex-end;
+  border-radius: 2px;
+  border: none;
+}
+.dinners-order.shadow-danger {
+  background-color: #eb0404;
+}
+.dinners-order.shadow-warning {
+  background-color: #d26e1a;
+}
+.dinners-order:nth-child(2n) {
+  float: right;
+}
+.dinners-order > div {
+  background-color: #fff;
+}
+.dinners-order .icon {
+  display: flex;
+}
+.dinners-order .user {
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: -30px;
+  width: 60px;
+  height: 60px;
+}
+.dinners-order .user.user-icon i {
+  padding: 5px;
+}
+
+.dinners-order .userid {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.dinners-order .price,
+.dinners-order .userid p {
+  color: #5a5757;
+}
+
+.dinners-order .userprice {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 2px solid #ddd;
+}
+
+.dinners-order .time {
+  margin: 0;
+}
+
+.dinners-order .order-time {
+  margin-top: 5px !important;
+  /* color: #666464; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 3px;
+}
+
 /* second Start */
 
 .second {

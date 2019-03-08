@@ -214,12 +214,19 @@ body {
   transform: translateY(-5px);
 }
 
+.user.user-icon i {
+  margin-top: -15px;
+  display: block;
+  color: #7ca60b;
+}
+
 .shadow-danger {
   border: 1px solid #eb0404;
   box-shadow: 0 3px 15px rgba(159, 1, 1, 0.432),
     0 3px 15px rgba(159, 1, 9, 0.13);
 }
-.shadow-danger .time {
+.shadow-danger .time,
+.shadow-danger .user.user-icon i {
   color: #eb0404;
 }
 
@@ -228,7 +235,8 @@ body {
   box-shadow: 0 3px 15px rgba(159, 156, 1, 0.432),
     0 3px 15px rgba(159, 156, 1, 0.13);
 }
-.shadow-warning .time {
+.shadow-warning .time,
+.shadow-warning .user.user-icon i {
   color: #d26e1a;
 }
 
@@ -236,11 +244,20 @@ body {
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: green;
+  /* background: green; */
   line-height: 80px;
   float: left;
   overflow: hidden;
 }
+.user.user-icon {
+  border-radius: 0;
+}
+
+.user.user-icon i:before {
+  font-size: 50px;
+  margin: 0;
+}
+
 .user img {
   width: 100%;
   float: left;
@@ -297,6 +314,10 @@ body {
   box-sizing: border-box;
 }
 
+.delivery .user.user-icon i {
+  margin-top: -10px;
+}
+
 .orderbox.delivery .orderid p {
   display: inline-block;
   margin: 0;
@@ -308,7 +329,6 @@ body {
   /* overflow: hidden; */
   height: 90px;
 }
-
 
 .orderbox.delivery .order-time {
   margin-top: 10px !important;
@@ -324,6 +344,31 @@ body {
   line-height: 70px;
 }
 /* Delivery OrderBox End*/
+
+/* hotel tabs items */
+.order-table-icons {
+  width: 120px;
+  float: left;
+  background-image: url(../../pos-icons/png/019-table.png);
+  height: 100px;
+  background-size: cover;
+  margin: 20px;
+  position: relative;
+}
+.order-table-icons img {
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 15px);
+}
+
+.order-table-icons p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: -30px;
+  font-weight: 600;
+}
 
 /* Customize website's scrollbar like Mac OS
 Not supports in Firefox and IE */
