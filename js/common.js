@@ -26,4 +26,40 @@ $(document).ready(function() {
     $(target).addClass("in");
     $(this).addClass("active");
   });
+
+  // $(".updown .up").click(function() {
+  //   slideUp();
+  //   console.log("up clicked");
+  // });
+
+  // $(".updown .down").click(function() {
+  //   slideDown();
+  //   console.log("down clicked");
+  // });
 });
+
+const speed = 5;
+function slideDown() {
+  let sliderContainer = $(".fourthsec");
+  let remLength =
+    $(sliderContainer)[0].scrollHeight - $(sliderContainer).height();
+  let scrollable = remLength - $(sliderContainer).scrollTop();
+
+  $(sliderContainer).animate(
+    {
+      scrollTop: remLength
+    },
+    speed * scrollable
+  );
+}
+
+function slideUp() {
+  let sliderContainer = $(".fourthsec");
+
+  $(sliderContainer).animate(
+    {
+      scrollTop: 0
+    },
+    speed * $(sliderContainer).scrollTop()
+  );
+}
