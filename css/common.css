@@ -96,7 +96,7 @@ body {
   width: 30%;
   float: left;
   height: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
   border: 1px solid #ddd;
   box-sizing: border-box;
 }
@@ -123,6 +123,7 @@ body {
 }
 .b-iconbox i::before {
   font-size: 30px;
+  margin: 0;
 }
 .b-iconbox span {
   position: absolute;
@@ -201,7 +202,6 @@ body {
 .order-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 

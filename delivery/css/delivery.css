@@ -81,12 +81,6 @@
   box-sizing: border-box;
   overflow-y: scroll;
 }
-.third-box {
-  width: 100%;
-  float: left;
-  height: auto;
-  margin-bottom: 20px;
-}
 
 .third .b-iconbox {
   width: 25%;
@@ -106,6 +100,8 @@
   padding: 10px;
   box-sizing: border-box;
   font-size: 14px;
+  margin: 15px 10px;
+  min-width: 155px;
 }
 .third-subbox span {
   position: absolute;
