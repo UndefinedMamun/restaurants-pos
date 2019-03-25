@@ -128,17 +128,18 @@ body {
   position: absolute;
   top: -15px;
   right: -19px;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   background: red;
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 11px;
   color: #fff;
   text-align: center;
   display: inline-block;
-  padding: 1px;
+  padding: 2px;
   box-sizing: border-box;
-  padding-right: 4px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .orders-filtered {
@@ -195,6 +196,13 @@ body {
   height: 100%;
   overflow-y: scroll;
   font-size: 14px;
+}
+
+.order-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .orderbox {
@@ -348,12 +356,12 @@ body {
 /* hotel tabs items */
 .order-table-icons {
   width: 120px;
-  float: left;
-  background-image: url(../pos-icons/png/019-table.png);
+  background-image: url(../pos-icons/svg/018-table.svg);
   height: 100px;
   background-size: cover;
   margin: 20px;
   position: relative;
+  cursor: pointer;
 }
 .order-table-icons img {
   width: 30px;

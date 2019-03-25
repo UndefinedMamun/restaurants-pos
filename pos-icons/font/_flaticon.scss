@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 01/02/2019 08:24
+    Creation date: 25/03/2019 12:48
     */
 
     @font-face {
@@ -49,46 +49,47 @@
 .flaticon-settings-gears:before { content: "\f109"; }
 .flaticon-menu:before { content: "\f10a"; }
 .flaticon-graph:before { content: "\f10b"; }
-.flaticon-parking-sign:before { content: "\f10c"; }
-.flaticon-eating-1:before { content: "\f10d"; }
-.flaticon-hotel:before { content: "\f10e"; }
-.flaticon-restaurant:before { content: "\f10f"; }
-.flaticon-dinner-1:before { content: "\f110"; }
-.flaticon-reserved:before { content: "\f111"; }
-.flaticon-reserved-1:before { content: "\f112"; }
-.flaticon-waiter:before { content: "\f113"; }
-.flaticon-prize-badge-with-star-and-ribbon:before { content: "\f114"; }
-.flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before { content: "\f115"; }
-.flaticon-deny:before { content: "\f116"; }
-.flaticon-approve-circular-button:before { content: "\f117"; }
-.flaticon-download:before { content: "\f118"; }
-.flaticon-ring:before { content: "\f119"; }
-.flaticon-waiting-room:before { content: "\f11a"; }
-.flaticon-logout:before { content: "\f11b"; }
-.flaticon-plus:before { content: "\f11c"; }
-.flaticon-minus:before { content: "\f11d"; }
-.flaticon-fish:before { content: "\f11e"; }
-.flaticon-meat:before { content: "\f11f"; }
-.flaticon-dipping-sauce-with-chips:before { content: "\f120"; }
-.flaticon-cheese:before { content: "\f121"; }
-.flaticon-close:before { content: "\f122"; }
-.flaticon-three-way-intersection:before { content: "\f123"; }
-.flaticon-add-to-cart:before { content: "\f124"; }
-.flaticon-printer:before { content: "\f125"; }
-.flaticon-mail-send:before { content: "\f126"; }
-.flaticon-shop-store-frontal-building:before { content: "\f127"; }
-.flaticon-user:before { content: "\f128"; }
-.flaticon-paragraph:before { content: "\f129"; }
-.flaticon-receipt-1:before { content: "\f12a"; }
-.flaticon-key:before { content: "\f12b"; }
-.flaticon-data:before { content: "\f12c"; }
-.flaticon-key-1:before { content: "\f12d"; }
-.flaticon-info:before { content: "\f12e"; }
-.flaticon-clock:before { content: "\f12f"; }
-.flaticon-delete:before { content: "\f130"; }
-.flaticon-driver:before { content: "\f131"; }
-.flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package:before { content: "\f132"; }
-.flaticon-garlic:before { content: "\f133"; }
+.flaticon-eating-1:before { content: "\f10c"; }
+.flaticon-hotel:before { content: "\f10d"; }
+.flaticon-restaurant:before { content: "\f10e"; }
+.flaticon-dinner-1:before { content: "\f10f"; }
+.flaticon-reserved:before { content: "\f110"; }
+.flaticon-reserved-1:before { content: "\f111"; }
+.flaticon-waiter:before { content: "\f112"; }
+.flaticon-prize-badge-with-star-and-ribbon:before { content: "\f113"; }
+.flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before { content: "\f114"; }
+.flaticon-deny:before { content: "\f115"; }
+.flaticon-approve-circular-button:before { content: "\f116"; }
+.flaticon-download:before { content: "\f117"; }
+.flaticon-ring:before { content: "\f118"; }
+.flaticon-waiting-room:before { content: "\f119"; }
+.flaticon-logout:before { content: "\f11a"; }
+.flaticon-plus:before { content: "\f11b"; }
+.flaticon-minus:before { content: "\f11c"; }
+.flaticon-fish:before { content: "\f11d"; }
+.flaticon-meat:before { content: "\f11e"; }
+.flaticon-dipping-sauce-with-chips:before { content: "\f11f"; }
+.flaticon-cheese:before { content: "\f120"; }
+.flaticon-close:before { content: "\f121"; }
+.flaticon-three-way-intersection:before { content: "\f122"; }
+.flaticon-add-to-cart:before { content: "\f123"; }
+.flaticon-printer:before { content: "\f124"; }
+.flaticon-mail-send:before { content: "\f125"; }
+.flaticon-shop-store-frontal-building:before { content: "\f126"; }
+.flaticon-user:before { content: "\f127"; }
+.flaticon-paragraph:before { content: "\f128"; }
+.flaticon-receipt-1:before { content: "\f129"; }
+.flaticon-key:before { content: "\f12a"; }
+.flaticon-data:before { content: "\f12b"; }
+.flaticon-key-1:before { content: "\f12c"; }
+.flaticon-info:before { content: "\f12d"; }
+.flaticon-clock:before { content: "\f12e"; }
+.flaticon-delete:before { content: "\f12f"; }
+.flaticon-driver:before { content: "\f130"; }
+.flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package:before { content: "\f131"; }
+.flaticon-garlic:before { content: "\f132"; }
+.flaticon-parking-sign:before { content: "\f133"; }
+.flaticon-park:before { content: "\f134"; }
     
     $font-Flaticon-eating: "\f100";
     $font-Flaticon-take-away: "\f101";
@@ -102,43 +103,44 @@
     $font-Flaticon-settings-gears: "\f109";
     $font-Flaticon-menu: "\f10a";
     $font-Flaticon-graph: "\f10b";
-    $font-Flaticon-parking-sign: "\f10c";
-    $font-Flaticon-eating-1: "\f10d";
-    $font-Flaticon-hotel: "\f10e";
-    $font-Flaticon-restaurant: "\f10f";
-    $font-Flaticon-dinner-1: "\f110";
-    $font-Flaticon-reserved: "\f111";
-    $font-Flaticon-reserved-1: "\f112";
-    $font-Flaticon-waiter: "\f113";
-    $font-Flaticon-prize-badge-with-star-and-ribbon: "\f114";
-    $font-Flaticon-covered-food-tray-on-a-hand-of-hotel-room-service: "\f115";
-    $font-Flaticon-deny: "\f116";
-    $font-Flaticon-approve-circular-button: "\f117";
-    $font-Flaticon-download: "\f118";
-    $font-Flaticon-ring: "\f119";
-    $font-Flaticon-waiting-room: "\f11a";
-    $font-Flaticon-logout: "\f11b";
-    $font-Flaticon-plus: "\f11c";
-    $font-Flaticon-minus: "\f11d";
-    $font-Flaticon-fish: "\f11e";
-    $font-Flaticon-meat: "\f11f";
-    $font-Flaticon-dipping-sauce-with-chips: "\f120";
-    $font-Flaticon-cheese: "\f121";
-    $font-Flaticon-close: "\f122";
-    $font-Flaticon-three-way-intersection: "\f123";
-    $font-Flaticon-add-to-cart: "\f124";
-    $font-Flaticon-printer: "\f125";
-    $font-Flaticon-mail-send: "\f126";
-    $font-Flaticon-shop-store-frontal-building: "\f127";
-    $font-Flaticon-user: "\f128";
-    $font-Flaticon-paragraph: "\f129";
-    $font-Flaticon-receipt-1: "\f12a";
-    $font-Flaticon-key: "\f12b";
-    $font-Flaticon-data: "\f12c";
-    $font-Flaticon-key-1: "\f12d";
-    $font-Flaticon-info: "\f12e";
-    $font-Flaticon-clock: "\f12f";
-    $font-Flaticon-delete: "\f130";
-    $font-Flaticon-driver: "\f131";
-    $font-Flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package: "\f132";
-    $font-Flaticon-garlic: "\f133";
+    $font-Flaticon-eating-1: "\f10c";
+    $font-Flaticon-hotel: "\f10d";
+    $font-Flaticon-restaurant: "\f10e";
+    $font-Flaticon-dinner-1: "\f10f";
+    $font-Flaticon-reserved: "\f110";
+    $font-Flaticon-reserved-1: "\f111";
+    $font-Flaticon-waiter: "\f112";
+    $font-Flaticon-prize-badge-with-star-and-ribbon: "\f113";
+    $font-Flaticon-covered-food-tray-on-a-hand-of-hotel-room-service: "\f114";
+    $font-Flaticon-deny: "\f115";
+    $font-Flaticon-approve-circular-button: "\f116";
+    $font-Flaticon-download: "\f117";
+    $font-Flaticon-ring: "\f118";
+    $font-Flaticon-waiting-room: "\f119";
+    $font-Flaticon-logout: "\f11a";
+    $font-Flaticon-plus: "\f11b";
+    $font-Flaticon-minus: "\f11c";
+    $font-Flaticon-fish: "\f11d";
+    $font-Flaticon-meat: "\f11e";
+    $font-Flaticon-dipping-sauce-with-chips: "\f11f";
+    $font-Flaticon-cheese: "\f120";
+    $font-Flaticon-close: "\f121";
+    $font-Flaticon-three-way-intersection: "\f122";
+    $font-Flaticon-add-to-cart: "\f123";
+    $font-Flaticon-printer: "\f124";
+    $font-Flaticon-mail-send: "\f125";
+    $font-Flaticon-shop-store-frontal-building: "\f126";
+    $font-Flaticon-user: "\f127";
+    $font-Flaticon-paragraph: "\f128";
+    $font-Flaticon-receipt-1: "\f129";
+    $font-Flaticon-key: "\f12a";
+    $font-Flaticon-data: "\f12b";
+    $font-Flaticon-key-1: "\f12c";
+    $font-Flaticon-info: "\f12d";
+    $font-Flaticon-clock: "\f12e";
+    $font-Flaticon-delete: "\f12f";
+    $font-Flaticon-driver: "\f130";
+    $font-Flaticon-commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package: "\f131";
+    $font-Flaticon-garlic: "\f132";
+    $font-Flaticon-parking-sign: "\f133";
+    $font-Flaticon-park: "\f134";

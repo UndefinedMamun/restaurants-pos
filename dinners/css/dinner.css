@@ -116,6 +116,11 @@
   height: 100%;
   overflow: hidden;
 }
+
+.third .b-iconbox {
+  width: 25%;
+}
+
 .third-sec-container {
   width: 100%;
   height: calc(100% - 46px);
@@ -140,6 +145,14 @@
   overflow-y: scroll;
 }
 .third-sec3 {
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.third-sec4 {
   width: 100%;
   float: left;
   height: 100%;
@@ -281,6 +294,8 @@
   border-bottom: 1px solid #d3d3d3;
   text-align: right;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 .food-extra {
   display: inline-block;
@@ -288,10 +303,12 @@
 }
 .food-price {
   display: inline-block;
+  margin-left: auto;
 }
 .deleat {
   display: inline-block;
   float: right;
+  cursor: pointer;
 }
 .fourth-secound {
   width: 100%;
@@ -301,12 +318,16 @@
   border-bottom: 1px solid #d3d3d3;
   text-align: right;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 .fourth-thired {
   width: 100%;
   float: left;
   padding: 10px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 .food-deleat {
   width: 30px;
@@ -318,6 +339,7 @@
   padding: 3px;
   color: #fff;
   font-size: 12px;
+  cursor: pointer;
 }
 .food-deleat i::before {
   margin: 0;
@@ -328,12 +350,13 @@
   background: #a4a4a4;
   display: inline-block;
   border-radius: 25px;
-  float: right;
   text-align: center;
   padding: 3px;
   font-weight: 700;
   color: #262626;
-  font-size: 12px;
+  font-size: 14px;
+  margin-left: auto;
+  cursor: pointer;
 }
 .add i::before {
   margin: 0;
