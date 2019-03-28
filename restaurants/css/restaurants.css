@@ -21,7 +21,6 @@
 }
 
 .tablesec {
-  overflow-y: scroll;
   float: left;
   height: calc(100% - 46px);
   width: 100%;

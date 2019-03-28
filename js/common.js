@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 const speed = 5;
 function slideDown() {
-  let sliderContainer = $(".fourthsec");
+  let sliderContainer = $(".fourthsec .simplebar-content");
   let remLength =
     $(sliderContainer)[0].scrollHeight - $(sliderContainer).height();
   let scrollable = remLength - $(sliderContainer).scrollTop();
@@ -54,7 +54,7 @@ function slideDown() {
 }
 
 function slideUp() {
-  let sliderContainer = $(".fourthsec");
+  let sliderContainer = $(".fourthsec .simplebar-content");
 
   $(sliderContainer).animate(
     {
@@ -63,3 +63,17 @@ function slideUp() {
     speed * $(sliderContainer).scrollTop()
   );
 }
+
+// (function($) {
+//   $(window).on("load", function() {
+//     $(".second").jScrollPane({
+//       showArrows: true
+//     });
+//     $(".sidebar").jScrollPane({
+//       showArrows: true
+//     });
+//     $(".ofb").jScrollPane({
+//       showArrows: true
+//     });
+//   });
+// })(jQuery);

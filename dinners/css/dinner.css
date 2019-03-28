@@ -82,7 +82,6 @@
   height: 100%;
   padding: 15px;
   box-sizing: border-box;
-  overflow-y: scroll;
   border-right: 1px solid #ddd;
 }
 .second-box {
@@ -91,7 +90,7 @@
   background: green;
   border-radius: 10px;
   position: relative;
-  background-image: url(../img/secondbox.png);
+  background-image: url(../img/secondbox.jpg);
   background-size: cover;
   margin: 0 auto 20px auto;
 }
@@ -136,7 +135,6 @@
   height: 100%;
   padding: 20px 10px;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 .third-sec2 {
   width: 100%;
@@ -144,7 +142,6 @@
   height: 100%;
   padding: 20px 10px;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 .third-sec3 {
   width: 100%;
@@ -152,7 +149,6 @@
   height: 100%;
   padding: 20px 10px;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 .third-sec4 {
   width: 100%;
@@ -160,7 +156,6 @@
   height: 100%;
   padding: 20px 10px;
   box-sizing: border-box;
-  overflow-y: scroll;
 }
 
 .third-subbox {
