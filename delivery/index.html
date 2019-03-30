@@ -2,7 +2,16 @@
 <html>
   <head>
     <title></title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -10,6 +19,7 @@
     />
     <link rel="stylesheet" type="text/css" href="../css/common.css" />
     <link rel="stylesheet" type="text/css" href="css/delivery.css" />
+    <link rel="stylesheet" type="text/css" href="../css/popups.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -69,10 +79,12 @@
         <i class="flaticon-prize-badge-with-star-and-ribbon"></i>
       </a>
       <div class="line"></div>
-      <a href="#" class="icon-box">
+      <a href="javascript:;" data-toggle="modal" data-target="#settings-main-modal" class="icon-box">
         <i class="flaticon-settings-gears"></i>
       </a>
     </div>
+
+
     <div class="main">
       <div class="first tabscon">
         <div class="b-icon tabshead">
@@ -133,7 +145,11 @@
               </div>
             </div>
             <div class="all-orders grass-bg">
-              <div class="inner-tabs ofb in orders-filtered-by-all" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb in orders-filtered-by-all"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox shadow-danger">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -327,7 +343,11 @@
                   </div>
                 </div>
               </div>
-              <div class="inner-tabs ofb orders-filtered-by-success" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb orders-filtered-by-success"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox shadow-success">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -377,7 +397,11 @@
                   </div>
                 </div>
               </div>
-              <div class="inner-tabs ofb orders-filtered-by-danger" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb orders-filtered-by-danger"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox shadow-danger">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -427,7 +451,11 @@
                   </div>
                 </div>
               </div>
-              <div class="inner-tabs ofb orders-filtered-by-warning" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb orders-filtered-by-warning"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox delivery shadow-warning">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -538,7 +566,11 @@
               </div>
             </div>
             <div class="all-orders grass-bg">
-              <div class="inner-tabs ofb in orders-filtered-by-all" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb in orders-filtered-by-all"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox shadow-success">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -636,7 +668,11 @@
                   </div>
                 </div>
               </div>
-              <div class="inner-tabs ofb orders-filtered-by-success" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb orders-filtered-by-success"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox shadow-success">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -702,7 +738,11 @@
                   </div>
                 </div>
               </div>
-              <div class="inner-tabs ofb orders-filtered-by-danger" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb orders-filtered-by-danger"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox shadow-danger">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -768,7 +808,11 @@
                   </div>
                 </div>
               </div>
-              <div class="inner-tabs ofb orders-filtered-by-warning" data-simplebar data-simplebar-auto-hide="true">
+              <div
+                class="inner-tabs ofb orders-filtered-by-warning"
+                data-simplebar
+                data-simplebar-auto-hide="true"
+              >
                 <div class="orderbox delivery shadow-warning">
                   <div class="user">
                     <img src="img/faces/avatar.jpg" />
@@ -851,7 +895,11 @@
         </div>
 
         <div class="orders-filtered tabs" id="orders-notifications">
-          <div class="ofb grass-bg" data-simplebar data-simplebar-auto-hide="true">
+          <div
+            class="ofb grass-bg"
+            data-simplebar
+            data-simplebar-auto-hide="true"
+          >
             <div class="orderbox shadow-success">
               <div class="user">
                 <img src="img/faces/avatar.jpg" />
@@ -1039,7 +1087,11 @@
             </div>
           </div>
         </div>
-        <div class="third-sec-container grass-bg" data-simplebar data-simplebar-auto-hide="true">
+        <div
+          class="third-sec-container grass-bg"
+          data-simplebar
+          data-simplebar-auto-hide="true"
+        >
           <div class="third-sec tabs in">
             <div class="order-container">
               <div class="third-subbox">
@@ -1520,7 +1572,146 @@
         </div>
       </div>
     </div>
+
+    <!-- Modals Start From here -->
+      <!-- Settings Main Modal -->
+      <div class="modal fade" id="settings-main-modal" tabindex="-1" role="dialog" aria-labelledby="Settings popup" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Settings</h5>
+              <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> -->
+            </div>
+            <div class="modal-body">
+              <div class=" v-pills-tab">
+                  <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false">
+                        <i class="flaticon-data"></i>
+                      </a>
+                      <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                        <i class="flaticon-waiter"></i>
+                      </a>
+                      <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                        <i class="flaticon-printer"></i>
+                      </a>
+                      <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#settings-modal-data" role="tab" aria-controls="settings-modal-data" aria-selected="false">
+                        <i class="flaticon-paragraph"></i>
+                      </a>
+                      <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#settings-modal-data" role="tab" aria-controls="settings-modal-data" aria-selected="false">
+                        <i class="flaticon-receipt-1"></i>
+                      </a>
+                      <a class="nav-link popup-tabs gradient-box-shadow active" data-toggle="pill" href="#settings-modal-data" role="tab" aria-controls="settings-modal-data" aria-selected="true">
+                        <i class="flaticon-data"></i>
+                      </a>
+                      <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#settings-modal-data" role="tab" aria-controls="settings-modal-data" aria-selected="false">
+                        <i class="flaticon-settings-gears"></i>
+                      </a>
+                    </div>
+              </div>
+              <div class="tab-content v-pills-tabContent">
+                <div class="tab-pane" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore qui architecto et assumenda sunt quasi odit excepturi in consequuntur amet.</div>
+                <div class="tab-pane" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore qui architecto et assumenda sunt quasi odit excepturi in consequuntur amet.</div>
+                <div class="tab-pane" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore qui architecto et assumenda sunt quasi odit excepturi in consequuntur amet.</div>
+                <div class="tab-pane show active" id="settings-modal-data" role="tabpanel" aria-labelledby="settings-modal-data-tab">
+
+                  <div class="modal-tab-first-half">
+
+                    <div class="upload-type">
+                      <i class="flaticon-data"></i>
+                      <div>
+                        <p>Local/Cloud/Drive Backup</p>
+                        <span>Auto Start</span>
+                      </div>
+                    </div>
+
+                    <div class="upload-type">
+                      <i class="flaticon-data"></i>
+                      <div>
+                        <p>Local/Cloud/Drive Backup</p>
+                        <span>Manuell Start</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="modal-tab-last-half">
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                    <div class="upload-info gradient-box-shadow">
+                      <i class="flaticon-data"></i>
+                      <span>12.10.208</span>
+                      <span>00:15h</span>
+                      <span>2MB</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-secondary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modals End here -->
+
+    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
     <script src="../js/common.js"></script>
   </body>
