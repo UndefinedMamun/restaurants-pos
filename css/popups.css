@@ -175,7 +175,11 @@
 #settings-main-modal .modal-body {
   display: flex;
   padding: 0;
-  /* height: 75vh; */
+  height: 75vh;
+}
+
+#settings-main-modal .modal-dialog {
+  margin: 0.5rem auto;
 }
 
 #settings-main-modal i {
