@@ -7,11 +7,14 @@
   font-weight: bold;
   /* color: #a4a4a4; */
 }
+.modal-header .close {
+  margin-left: 0;
+}
 .modal-footer {
   justify-content: center;
 }
 .modal-footer button {
-  padding: 10px 30px;
+  padding: 15px 40px;
   font-weight: bold;
 }
 .modal-body .v-pills-tab {
@@ -179,7 +182,8 @@
 }
 
 #settings-main-modal .modal-dialog {
-  margin: 0.5rem auto;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  /* max-width: 1040px; */
 }
 
 #settings-main-modal i {
