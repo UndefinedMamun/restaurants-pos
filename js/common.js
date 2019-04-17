@@ -36,6 +36,8 @@ $(document).ready(function() {
   //   slideDown();
   //   console.log("down clicked");
   // });
+
+  $(".knob-dial").knob();
 });
 
 const speed = 5;
