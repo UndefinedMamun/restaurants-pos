@@ -7,6 +7,9 @@
   font-weight: bold;
   /* color: #a4a4a4; */
 }
+.modal-header {
+  padding: 0.5rem 1rem;
+}
 .modal-header .close {
   margin-left: 0;
 }
@@ -16,6 +19,7 @@
 .modal-footer button {
   padding: 15px 40px;
   font-weight: bold;
+  width: 70%;
 }
 .modal-body .v-pills-tab {
   padding: 5px 5px 5px 10px;
@@ -182,7 +186,7 @@
 }
 
 #settings-main-modal .modal-dialog {
-  margin: 0.5rem 0.5rem 0 0.5rem;
+  margin: 0.5rem auto;
   /* max-width: 1040px; */
 }
 
@@ -195,7 +199,7 @@
   width: 50%;
   padding: 10px;
   /* padding-left: 5px; */
-  border-right: 1px solid #ddd;
+  /* border-right: 1px solid #ddd; */
 }
 
 /* #settings-modal-data {
@@ -205,7 +209,7 @@
 
 .modal-tab-last-half {
   width: 50%;
-  background-color: rgba(148, 143, 143, 0.1);
+
   padding: 10px;
   /* overflow: auto; */
 }
@@ -257,4 +261,280 @@
   font-weight: normal;
 }
 
+#settings-modal-data .modal-tab-last-half {
+  background-color: rgba(148, 143, 143, 0.1);
+}
+#settings-modal-data .modal-tab-first-half {
+  border-right: 1px solid #ddd;
+}
+
 /* data tabs content end */
+
+/* Backup config modal start here */
+#backUpConfig .modal-content {
+  box-shadow: 0px 0px 10px 10px rgba(74, 59, 59, 0.4);
+}
+
+#backUpConfig .form-control {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3.5rem;
+}
+
+/* Backup config modal end here */
+
+/* Setting modal settings tab Start */
+
+#settings-modal-settings {
+  flex-direction: column;
+}
+
+#settings-modal-settings-inner-tab-content {
+  height: calc(100% - 60px);
+}
+#settings-modal-settings-inner-tab-content .tab-pane {
+  height: 100%;
+}
+
+.settings-modal-inner-tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.settings-modal-inner-tabs li {
+  width: 30%;
+}
+
+.settings-modal-inner-tabs a {
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  color: inherit;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+.settings-modal-inner-tabs a.active {
+  box-shadow: 0px 2px 5px 2px #ddd;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(13%, rgba(252, 252, 252, 1)),
+    color-stop(34%, rgba(246, 246, 246, 1)),
+    color-stop(100%, rgba(237, 237, 237, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+.settings-modal-inner-tabs a:hover {
+  box-shadow: 0px 2px 5px 2px #ddd;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 255, 255, 1)),
+    color-stop(13%, rgba(252, 252, 252, 1)),
+    color-stop(34%, rgba(246, 246, 246, 1)),
+    color-stop(100%, rgba(237, 237, 237, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 252, 252, 1) 13%,
+    rgba(246, 246, 246, 1) 34%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+.allow-multi-devices {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.allow-multi-devices i {
+  margin: auto 5px;
+}
+.allow-multi-devices i::before {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.allow-multi-devices p {
+  margin: auto 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+#settings-modal-settings .modal-tab-first-half {
+  border: none;
+}
+
+#settings-modal-settings .modal-tab-last-half {
+  /* background: #fff; */
+}
+
+.box-with-checkboxes {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 1px #ddd;
+  margin-bottom: 10px;
+}
+
+.checkbox-container input {
+  display: none;
+}
+
+.checkbox-container {
+  /* position: relative; */
+  min-width: 50px;
+}
+
+.checkbox-container label {
+  position: relative;
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.checkbox-container label:after {
+  content: "";
+  width: 18px;
+  height: 100%;
+  border: 1px solid #ddd;
+  right: -25px;
+  position: absolute;
+  cursor: pointer;
+}
+.checkbox-container input:checked + label::after {
+  background-color: #04b400;
+  border: none;
+}
+
+/* Setting modal settings tab End */
+
+/* Settings Modal Reciept tab start */
+#settings-modal-reciept {
+  flex-direction: column;
+}
+
+#settings-modal-reciept .settings-modal-inner-tabs {
+  padding: 0 10px;
+}
+
+#settings-modal-reciept .settings-modal-inner-tabs li {
+  /* padding: 0 10px; */
+  width: 33.33%;
+  margin-bottom: 3px;
+}
+
+#settings-modal-reciept .settings-modal-inner-tabs li a {
+  border-radius: 0;
+  box-shadow: none;
+  padding: 15px;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+#settings-modal-reciept .settings-modal-inner-tabs li a.active {
+  /* padding: 0 10px; */
+  box-shadow: none;
+  border-radius: 0;
+}
+#settings-modal-reciept .settings-modal-inner-tabs li a:hover {
+  /* padding: 0 10px; */
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.sort-by-nav {
+  display: flex;
+}
+.sort-by-nav li {
+  width: 25%;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-left: none;
+}
+.sort-by-nav li:last-child {
+  border-right: 0;
+}
+.sort-by-nav li a {
+  color: inherit;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Settings Modal Reciept tab end */
