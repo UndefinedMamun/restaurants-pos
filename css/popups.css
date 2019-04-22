@@ -17,15 +17,11 @@
   justify-content: center;
 }
 .modal-footer button {
-  padding: 15px 40px;
+  padding: 10px 40px;
   font-weight: bold;
   width: 70%;
 }
-.modal-body .v-pills-tab {
-  padding: 5px 5px 5px 10px;
-  width: 113px;
-  flex-wrap: nowrap;
-}
+
 .modal-body .v-pills-tabContent {
   overflow: hidden;
   display: flex;
@@ -136,7 +132,17 @@
   font-size: 3rem;
 }
 
-.modal-body .popup-tabs.active {
+#settings-modal-v-tab {
+  padding: 5px 5px 5px 10px;
+  width: 113px;
+  flex-wrap: nowrap;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#settings-modal-v-tab .popup-tabs.active {
   color: inherit;
 
   background: rgba(255, 255, 255, 1);

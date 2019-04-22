@@ -1577,15 +1577,8 @@
       <!-- Settings Main Modal -->
       <div class="modal fade" id="settings-main-modal" tabindex="-1" role="dialog" aria-labelledby="Settings popup" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Settings</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="v-pills-tab" data-simplebar data-simplebar-auto-hide="true">
+          <div class="modal-content" style="padding-left:115px;">
+              <div id="settings-modal-v-tab" class="v-pills-tab" data-simplebar data-simplebar-auto-hide="true">
                   <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
                       <a class="nav-link popup-tabs gradient-box-shadow" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false">
                         <i class="flaticon-shop-store-frontal-building"></i>
@@ -1610,6 +1603,14 @@
                       </a>
                     </div>
               </div>
+            <div class="modal-header">
+              <h5 class="modal-title">Settings</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
               <div class="tab-content v-pills-tabContent">
                 <div class="tab-pane" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore qui architecto et assumenda sunt quasi odit excepturi in consequuntur amet.</div>
                 <div class="tab-pane" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore qui architecto et assumenda sunt quasi odit excepturi in consequuntur amet.</div>
