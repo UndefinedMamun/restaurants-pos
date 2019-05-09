@@ -640,5 +640,87 @@ a.icon-box {
 }
 /* Fourth Section End */
 
+/* settings-modal-addon tab start */
+
+#settings-modal-addon {
+  flex-direction: column;
+}
+.settings-modal-addon-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  /* flex-basis: 50%; */
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+}
+.settings-modal-addon-section .form-group {
+  width: 45%;
+}
+.settings-modal-addon-section .form-group label {
+  font-weight: bold;
+}
+
+.settings-modal-addon-section .form-group .form-control {
+  height: 3rem;
+}
+
+.settings-modal-addon-section .section-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.settings-modal-addon-section .section-actions button {
+  margin: 0 2.5%;
+  padding: 0.4rem 2rem;
+}
+
+/* settings-modal-addon tab end */
+
+/* settings-modal-print Start */
+#settings-modal-print {
+}
+
+.all-printer {
+  width: 45%;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.all-printer-container {
+  height: calc(100% - 68px);
+}
+
+.all-printer .reciept-box {
+  justify-content: flex-start;
+}
+.reciept-box i.left-icon {
+  margin: auto 10px;
+  margin-right: 20px;
+}
+.reciept-box i.left-icon::before {
+  font-size: 30px;
+  margin-left: 0;
+}
+
+#add-printer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+}
+
+.print-view {
+  width: 55%;
+}
+.print-view {
+}
+
+/* settings-modal-print end */
+
 /* Customize website's scrollbar like Mac OS
 Not supports in Firefox and IE */
